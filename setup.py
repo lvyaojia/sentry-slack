@@ -13,7 +13,7 @@ from setuptools import setup, find_packages
 
 
 install_requires = [
-    'sentry>=7.0.0',
+    #'sentry>=7.0.0',  'conflict with kombu==3.0.30'
 ]
 
 setup(
